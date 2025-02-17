@@ -1,0 +1,857 @@
+[
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#NakhonSawan",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasLatitudeOfProvince",
+        "object": "15.7"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#hasSeal",
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "object": "สัญลักษณ์ประจำจังหวัด"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#hasLongitudeOfProvince",
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "object": "พิกัดลองจิจูดของจังหวัด"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#Phitsanulok",
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "object": "http://www.w3.org/2002/07/owl#NamedIndividual"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#ChiangMai",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasTree",
+        "object": "ทองกวาว"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#ChiangMai",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasImageOfProvince",
+        "object": "chiangmai.jpg"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#ThaiSouvenir",
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "object": "http://www.w3.org/2002/07/owl#Class"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#ThaiTambon",
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "object": "http://www.w3.org/2002/07/owl#Class"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#Uthaithani",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasNameOfProvince",
+        "object": "Uthaithani"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#ChiangMai",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasLatitudeOfProvince",
+        "object": "18.8"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#hasFlower",
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "object": "ดอกไม้ประจำจังหวัด"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#Phitsanulok",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasMotto",
+        "object": "\nGreat Buddha Chin Na Raj,\nKing Naresuan Birthplace,\nHouseboat in two sides of Nan River,\nPure Luscious Dried Banana,\nBeautiful Caves and Waterfalls\n"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#ChiangMai",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasURLOfProvince",
+        "object": "http://www.chiangmai.go.th"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#hasImageOfProvince",
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#domain",
+        "object": "http://www.my_ontology.edu/mytourism#ThaiProvince"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#hasLongitudeOfProvince",
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "object": "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#hasFlower",
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#range",
+        "object": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#Phitsanulok",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasNameOfProvince",
+        "object": "พิษณุโลก"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#Phitsanulok",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasTraditionalNameOfProvince",
+        "object": "Song Kwae"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#Pichit",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasTraditionalNameOfProvince",
+        "object": "เมืองชาละวัน"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#Uthaithani",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasTraditionalNameOfProvince",
+        "object": "City of The Grand Primordial Father"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#ChiangMai",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasNameOfProvince",
+        "object": "เชียงใหม่"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#Uthaithani",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasLatitudeOfProvince",
+        "object": "15.38"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#Phitsanulok",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasFlower",
+        "object": "Yellow Flamboyant"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#ChiangMai",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasTraditionalNameOfProvince",
+        "object": "Rattana Tingsa Api Nawaburi Chiang Mai"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#hasNameOfProvince",
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "object": "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#NakhonSawan",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasTraditionalNameOfProvince",
+        "object": "Pak Nam Pho"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#Uthaithani",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasNameOfProvince",
+        "object": "อุทัยธานี"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#Uthaithani",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasTraditionalNameOfProvince",
+        "object": "อุทัย"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#hasLatitudeOfProvince",
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "object": "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#Uthaithani",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasFlower",
+        "object": "Yellow Silk Cotton"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#hasTree",
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "object": "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#Phitsanulok",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasTree",
+        "object": "ปีป"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#hasTraditionalNameOfProvince",
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "object": "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#hasTree",
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#range",
+        "object": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#hasTree",
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "object": "ต้นไม้ประจำจังหวัด"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#NakhonSawan",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasFlower",
+        "object": "เสลา"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#NakhonSawan",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasImageOfProvince",
+        "object": "nakhonsawan.jpg"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#Uthaithani",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasSeal",
+        "object": "The Grand Primordial Father's Shrine in front of Sa Kae Krang Mountain"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#hasLongitudeOfProvince",
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#range",
+        "object": "http://www.w3.org/2001/XMLSchema#decimal"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#NakhonSawan",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasMotto",
+        "object": "\nQuad CityRiver,\nDragon Parade,\nBungborapet Rest,\nGood Taste Fish of Paknampho\n"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#Pichit",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasMotto",
+        "object": "\nถิ่นประสูติพระเจ้าเสือ \nแข่งเรือยาวประเพณี \nพระเครื่องดีหลวงพ่อเงิน \nเพลิดเพลินบึงสีไฟ\nศูนย์รวมใจหลวงพ่อเพชร\nรสเด็ดส้มท่าข่อย \nข้าวเจ้าอร่อยลือเลื่อง \nตำนานเมืองชาละวัน\n"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#ThaiOTOP",
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "object": "http://www.w3.org/2002/07/owl#Class"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#ThaiRestaurant",
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "object": "http://www.w3.org/2002/07/owl#Class"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#Uthaithani",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasTraditionalNameOfProvince",
+        "object": "เมืองพระชนกจักรี"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#Phitsanulok",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasTraditionalNameOfProvince",
+        "object": "Pra Phitsanulok Song Kwae City"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#Phitsanulok",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasURLOfProvince",
+        "object": "http://www.phitsanulok.go.th"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#hasLatitudeOfProvince",
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#range",
+        "object": "http://www.w3.org/2001/XMLSchema#decimal"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#NakhonSawan",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasTraditionalNameOfProvince",
+        "object": "See Kwae City"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#hasImageOfProvince",
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#range",
+        "object": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#ThaiRestaurant",
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+        "object": "http://www.w3.org/2002/07/owl#Thing"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#Uthaithani",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasImageOfProvince",
+        "object": "uthaithani.jpg"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#hasTraditionalNameOfProvince",
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "object": "ชื่ออื่น ๆ ของจังหวัด"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#Uthaithani",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasSeal",
+        "object": "ศาลพระชนกจักรีหน้าเขาสะแกกรัง"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#ThaiProvince",
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "object": "http://www.w3.org/2002/07/owl#Class"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#ChiangMai",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasMotto",
+        "object": "\nดอยสุเทพเป็นศรี\nประเพณีเป็นสง่า\nบุปผชาติล้วนงามตา \nนามล้ำค่านครพิงค์\n"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#NakhonSawan",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasTraditionalNameOfProvince",
+        "object": "Chon Ta Wan City"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#hasTree",
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#domain",
+        "object": "http://www.my_ontology.edu/mytourism#ThaiProvince"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#ThaiSouvenir",
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+        "object": "http://www.w3.org/2002/07/owl#Thing"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#hasSeal",
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#range",
+        "object": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#Phitsanulok",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasTraditionalNameOfProvince",
+        "object": "นครพิษณุโลกสองแคว"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#ChiangMai",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasTraditionalNameOfProvince",
+        "object": "เจียงใหม่"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#ChiangMai",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasTraditionalNameOfProvince",
+        "object": "Nop Buri Sri Nakhon Ping Chiang Mai"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#ChiangMai",
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "object": "http://www.w3.org/2002/07/owl#NamedIndividual"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#ChiangMai",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasMotto",
+        "object": "\nDoi Sutep is Honor,\nTradition is Elegant,\nBlossoms are Beautiful,\nPrecious Name Nakhon Ping\n"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#Uthaithani",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasTraditionalNameOfProvince",
+        "object": "Uthai"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#Phitsanulok",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasTraditionalNameOfProvince",
+        "object": "Sra Loung Song Kwae City"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#ThaiAccomodation",
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "object": "http://www.w3.org/2002/07/owl#Class"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#Pichit",
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "object": "http://www.my_ontology.edu/mytourism#ThaiProvince"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#ThaiTambon",
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+        "object": "http://www.w3.org/2002/07/owl#Thing"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#ChiangMai",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasTraditionalNameOfProvince",
+        "object": "นพบุรีศรีนครพิงค์เชียงใหม่"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#hasMotto",
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "object": "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#ChiangMai",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasFlower",
+        "object": "Bastard Teak"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#Uthaithani",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasMotto",
+        "object": "\nUthai Thani,\nCity of The Grand Primordial Father,\nGood Taste Giant Gourami Fish,\nWorld Heritage Huai Kha Kang,\nWatersheds Sa Kae Krang,\nFamous Cattle Buffalos Market\n"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#Uthaithani",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasTraditionalNameOfProvince",
+        "object": "U Tai"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#ChiangMai",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasTraditionalNameOfProvince",
+        "object": "รัตนติงสาอภินวบุรีเชียงใหม่"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#Pichit",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasTraditionalNameOfProvince",
+        "object": "City of Crocodiles"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#Uthaithani",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasLongitudeOfProvince",
+        "object": "100.03"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#NakhonSawan",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasSeal",
+        "object": "วิมานลอย"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#hasImageOfProvince",
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "object": "ชื่อรูปภาพของจังหวัด"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#NakhonSawan",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasTraditionalNameOfProvince",
+        "object": "Pra Bang City"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#Phitsanulok",
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "object": "http://www.my_ontology.edu/mytourism#ThaiProvince"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#hasLongitudeOfProvince",
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#domain",
+        "object": "http://www.my_ontology.edu/mytourism#ThaiProvince"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#Phitsanulok",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasTree",
+        "object": "Indian Corck Tree"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#ThaiAttraction",
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "object": "http://www.w3.org/2002/07/owl#Class"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#hasLatitudeOfProvince",
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "object": "พิกัดละติจูดของจังหวัด"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#NakhonSawan",
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "object": "http://www.w3.org/2002/07/owl#NamedIndividual"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#ChiangMai",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasTraditionalNameOfProvince",
+        "object": "เวียงพิงค์"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#Pichit",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasLongitudeOfProvince",
+        "object": "100.35"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#hasTraditionalNameOfProvince",
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#range",
+        "object": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism",
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "object": "http://www.w3.org/2002/07/owl#Ontology"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#Pichit",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasSeal",
+        "object": "Sacred fig Tree and Sra Loung Pool"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#NakhonSawan",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasLongitudeOfProvince",
+        "object": "100.07"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#Phitsanulok",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasNameOfProvince",
+        "object": "Phitsanulok"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#ChiangMai",
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "object": "http://www.my_ontology.edu/mytourism#ThaiProvince"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#hasLatitudeOfProvince",
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#domain",
+        "object": "http://www.my_ontology.edu/mytourism#ThaiProvince"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#Pichit",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasTraditionalNameOfProvince",
+        "object": "Cha La Wan City"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#Phitsanulok",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasSeal",
+        "object": "พระพุทธชินราช"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#ThaiProvince",
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+        "object": "http://www.w3.org/2002/07/owl#Thing"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#Phitsanulok",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasMotto",
+        "object": "\nพระพุทธชินราชงามเลิศ\nถิ่นก้าเนิดพระนเรศวร\nสองฝั่งน่านล้วนเรือนแพ\nหวานฉ่ำแท้กล้วยตาก\nถ้ำและน้ำตกหลากตระการตา\n"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#NakhonSawan",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasSeal",
+        "object": "Sky Castle"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#Uthaithani",
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "object": "http://www.w3.org/2002/07/owl#NamedIndividual"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#Pichit",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasTree",
+        "object": "บุญนาค"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#hasNameOfProvince",
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "object": "ชื่อจังหวัด"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#ChiangMai",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasTree",
+        "object": "Bastard Teak"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#Pichit",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasSeal",
+        "object": "ต้นโพธิ์ริมสระหลวง"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#Phitsanulok",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasTraditionalNameOfProvince",
+        "object": "Pitlok"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#hasSeal",
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "object": "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#ChiangMai",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasNameOfProvince",
+        "object": "Chiang Mai"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#ChiangMai",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasSeal",
+        "object": "ช้างเผือกในเรือนแก้ว"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#hasURLOfProvince",
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "object": "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#hasTraditionalNameOfProvince",
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#domain",
+        "object": "http://www.my_ontology.edu/mytourism#ThaiProvince"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#Phitsanulok",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasSeal",
+        "object": "Image of Buddha Chin Na Raj"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#ThaiAccomodation",
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+        "object": "http://www.w3.org/2002/07/owl#Thing"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#NakhonSawan",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasTree",
+        "object": "เสลา"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#hasMotto",
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#range",
+        "object": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#NakhonSawan",
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "object": "http://www.my_ontology.edu/mytourism#ThaiProvince"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#NakhonSawan",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasTraditionalNameOfProvince",
+        "object": "เมืองพระบาง"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#NakhonSawan",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasTree",
+        "object": "Lagerstroemia loudoni"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#hasSeal",
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#domain",
+        "object": "http://www.my_ontology.edu/mytourism#ThaiProvince"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#hasNameOfProvince",
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#range",
+        "object": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#NakhonSawan",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasTraditionalNameOfProvince",
+        "object": "เมืองสี่แคว"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#ChiangMai",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasLongitudeOfProvince",
+        "object": "98.98"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#Phitsanulok",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasTraditionalNameOfProvince",
+        "object": "พิดโลก"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#Pichit",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasFlower",
+        "object": "Nymphaea lotus"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#Uthaithani",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasTree",
+        "object": "สะเดา"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#Phitsanulok",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasImageOfProvince",
+        "object": "phitsanulok.jpg"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#ThaiAmphoe",
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "object": "http://www.w3.org/2002/07/owl#Class"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#Pichit",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasTree",
+        "object": "Mesua Ferrea"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#ThaiAttraction",
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+        "object": "http://www.w3.org/2002/07/owl#Thing"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#NakhonSawan",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasTraditionalNameOfProvince",
+        "object": "ปากน้ำโพ"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#Uthaithani",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasTree",
+        "object": "Neem Plant"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#Uthaithani",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasMotto",
+        "object": "\nอุทัยธานี\nเมืองพระชนกจักรี \nปลาแรดรสดี\nประเพณีเทโว \nส้มโอบ้านน้ำตก\nมรดกโลกห้วยขาแข้ง \nแหล่งต้นน้ำสะแกกรัง \nตลาดนัดดังโคกระบือ\n"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#Phitsanulok",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasLatitudeOfProvince",
+        "object": "16.82"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#hasImageOfProvince",
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "object": "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#hasMotto",
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#domain",
+        "object": "http://www.my_ontology.edu/mytourism#ThaiProvince"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#NakhonSawan",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasURLOfProvince",
+        "object": "http://www.nakhonsawan.go.th"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#ThaiOTOP",
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+        "object": "http://www.w3.org/2002/07/owl#Thing"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#ChiangMai",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasTraditionalNameOfProvince",
+        "object": "Veang Ping"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#NakhonSawan",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasNameOfProvince",
+        "object": "นครสวรรค์"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#Pichit",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasImageOfProvince",
+        "object": "pichit.jpg"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#hasNameOfProvince",
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#domain",
+        "object": "http://www.my_ontology.edu/mytourism#ThaiProvince"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#hasFlower",
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "object": "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#Phitsanulok",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasLongitudeOfProvince",
+        "object": "100.27"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#ChiangMai",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasTraditionalNameOfProvince",
+        "object": "Jeang Mai"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#Phitsanulok",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasTraditionalNameOfProvince",
+        "object": "สองแคว"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#Uthaithani",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasURLOfProvince",
+        "object": "http://www.uthaithani.go.th"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#hasURLOfProvince",
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#range",
+        "object": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#Phitsanulok",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasFlower",
+        "object": "นนทรี"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#Pichit",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasNameOfProvince",
+        "object": "พิจิตร"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#hasURLOfProvince",
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "object": "ชื่อเว็บไซต์ของจังหวัด"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#Phitsanulok",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasTraditionalNameOfProvince",
+        "object": "นครสระหลวงสองแคว"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#Uthaithani",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasTraditionalNameOfProvince",
+        "object": "อุไทย"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#hasMotto",
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment",
+        "object": "คำขวัญของจังหวัด"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#Pichit",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasLatitudeOfProvince",
+        "object": "16.44"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#Pichit",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasMotto",
+        "object": "\nBirthplace of King Sanphet VIII,\nBoat Racing Festival,\nGood Buddhism Amulet,\nBung See Fai Rest,\nLoung Por Phet’s Unity Center,\nGood Taste Ta Koi’s Grapefruit,\nFamous Rice,\nLegend of Cha La Wan the Crocodile\n"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#ChiangMai",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasFlower",
+        "object": "ทองกวาว"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#Pichit",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasNameOfProvince",
+        "object": "Phichit"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#hasFlower",
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#domain",
+        "object": "http://www.my_ontology.edu/mytourism#ThaiProvince"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#NakhonSawan",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasMotto",
+        "object": "\nเมืองสี่แคว\nแห่มังกร\nพักผ่อนบึงบอระเพ็ด\nปลารสเด็ดปากน้ำโพ\n"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#NakhonSawan",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasNameOfProvince",
+        "object": "Nakhon Sawan"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#ChiangMai",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasSeal",
+        "object": "White Elephant in Glass Cover"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#Pichit",
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "object": "http://www.w3.org/2002/07/owl#NamedIndividual"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#Pichit",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasTraditionalNameOfProvince",
+        "object": "เมืองจระเข้"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#Pichit",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasURLOfProvince",
+        "object": "http://www.phichit.go.th"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#ThaiAmphoe",
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+        "object": "http://www.w3.org/2002/07/owl#Thing"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#hasURLOfProvince",
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#domain",
+        "object": "http://www.my_ontology.edu/mytourism#ThaiProvince"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#Uthaithani",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasFlower",
+        "object": "สุพรรณิการ์"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#NakhonSawan",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasTraditionalNameOfProvince",
+        "object": "เมืองชอนตะวัน"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#Uthaithani",
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "object": "http://www.my_ontology.edu/mytourism#ThaiProvince"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#Phitsanulok",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasFlower",
+        "object": "Lagerstroemia loudoni"
+    },
+    {
+        "subject": "http://www.my_ontology.edu/mytourism#Pichit",
+        "predicate": "http://www.my_ontology.edu/mytourism#hasFlower",
+        "object": "ดอกบัวหลวง"
+    }
+]

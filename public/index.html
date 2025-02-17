@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Province Search (Thai-English)</title>
+
+  <!-- React, ReactDOM, Babel -->
+  <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      background: #f7f7f7;
+      padding: 20px;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .search-input {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      margin-bottom: 20px;
+      outline: none;
+    }
+    .card {
+      background: #fff;
+      padding: 16px;
+      border-radius: 6px;
+      border: 1px solid #ddd;
+      margin-bottom: 20px;
+    }
+    .card h2 {
+      margin-bottom: 8px;
+      font-size: 1.2rem;
+    }
+    .card p {
+      margin-bottom: 8px;
+      color: #555;
+    }
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 6px;
+      margin-bottom: 10px;
+    }
+    .card a {
+      color: #007bff;
+      text-decoration: none;
+    }
+    .card a:hover {
+      text-decoration: underline;
+    }
+    .separator {
+      border: none;
+      border-top: 1px solid #ddd;
+      margin: 10px 0;
+    }
+    .field-list p {
+      margin-bottom: 4px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <div id="root" class="container"></div>
+
+  <script type="text/babel">
+    const { useState, useEffect } = React;
+
+    function ProvinceSearch() {
+      // แยก state สำหรับชื่อจังหวัด & คำขวัญ (ค้นหา)
+      const [searchName, setSearchName] = useState("");
+      const [searchMotto, setSearchMotto] = useState("");
+
+      const [provinces, setProvinces] = useState([]);
+      const [filteredProvinces, setFilteredProvinces] = useState([]);
+
+      // โหลดข้อมูล JSON -> แปลงโครงสร้าง -> เก็บใน state
+      useEffect(() => {
+        fetch("./province_data.json")
+          .then((res) => res.json())
+          .then((data) => {
+            const structuredData = {};
+
+            data.forEach((entry) => {
+              // แยก provinceKey เช่น subject = http://...#ChiangMai -> "ChiangMai"
+              const provinceKey = entry.subject.split("#")[1];
+              if (!structuredData[provinceKey]) {
+                structuredData[provinceKey] = {};
+              }
+
+              // แยก predicateKey เช่น predicate = http://...#hasNameOfProvince -> "hasNameOfProvince"
+              const predicateKey = entry.predicate.split("#")[1];
+
+              // ถ้ายังไม่มี array เก็บ property นี้ -> สร้าง array
+              if (!structuredData[provinceKey][predicateKey]) {
+                structuredData[provinceKey][predicateKey] = [];
+              }
+
+              // ดันค่าลง array
+              structuredData[provinceKey][predicateKey].push(entry.object);
+            });
+
+            // เปลี่ยนให้เป็น array ของ [ [key, dataObj], ... ]
+            // ซึ่ง dataObj แต่ละ key จะเป็น { hasNameOfProvince: [...], hasMotto: [...], ... }
+            // แต่ละ property ภายในจะเป็น array เสมอ
+            const provincesArray = Object.entries(structuredData);
+            setProvinces(provincesArray);
+          })
+          .catch((err) => console.error("Error loading JSON:", err));
+      }, []);
+
+      // ฟิลเตอร์รายการ เมื่อ name/motto หรือ provinces เปลี่ยน
+      useEffect(() => {
+        const nameInput = searchName.trim().toLowerCase();
+        const mottoInput = searchMotto.trim().toLowerCase();
+
+        // ถ้าไม่กรอกอะไร => แสดงทั้งหมด
+        if (!nameInput && !mottoInput) {
+          setFilteredProvinces(provinces);
+          return;
+        }
+
+        const filtered = provinces.filter(([key, data]) => {
+          // data.hasNameOfProvince คือ array เช่น ["เชียงใหม่", "Chiang Mai"]
+          // ถ้าไม่มี array นั้น -> ใส่ array เปล่า
+          const nameArr = data.hasNameOfProvince || [key];
+          // สมมติเป็น array เช่น ["เชียงใหม่", "Chiang Mai"]
+          const mottoArr = data.hasMotto || [];
+
+          // รวมค่าใน nameArr เป็นสตริงเดียว (เผื่อให้ .includes() หาได้ง่าย)
+          // เช่น "เชียงใหม่ chiang mai" (แปลงเป็นตัวพิมพ์เล็ก)
+          const combinedName = nameArr.map(x => x.toLowerCase()).join(" ");
+          const combinedMotto = mottoArr.map(x => x.toLowerCase()).join(" ");
+
+          // matchName = ถ้า nameInput ไม่ว่าง ต้องมีใน combinedName
+          const matchName = nameInput ? combinedName.includes(nameInput) : true;
+          const matchMotto = mottoInput ? combinedMotto.includes(mottoInput) : true;
+
+          return matchName && matchMotto; // AND
+        });
+
+        setFilteredProvinces(filtered);
+      }, [searchName, searchMotto, provinces]);
+
+      return (
+        <div>
+          <h1 style={{ textAlign: "center", marginBottom: "20px" }}>
+            Province Search (Thai-English)
+          </h1>
+
+          {/* Input สำหรับชื่อจังหวัด */}
+          <input
+            className="search-input"
+            type="text"
+            placeholder="ค้นหาจังหวัดตามชื่อ..."
+            value={searchName}
+            onChange={(e) => setSearchName(e.target.value)}
+          />
+
+          {/* Input สำหรับคำขวัญ */}
+          <input
+            className="search-input"
+            type="text"
+            placeholder="ค้นหาจังหวัดตามคำขวัญ..."
+            value={searchMotto}
+            onChange={(e) => setSearchMotto(e.target.value)}
+          />
+
+          {/* วนแสดงรายการจังหวัดที่กรองได้ */}
+          {filteredProvinces.map(([key, data]) => {
+            // data.hasNameOfProvince เป็น array (ถ้ามี)
+            const nameArr = data.hasNameOfProvince || [key]; 
+            // แปลง array ["เชียงใหม่", "Chiang Mai"] -> "เชียงใหม่ / Chiang Mai"
+            const displayName = nameArr.join(" / ");
+
+            const mottoArr = data.hasMotto || [];
+            // แปลงเป็นข้อความเดียวกัน
+            const displayMotto = mottoArr.join("\n");
+
+            const imageArr = data.hasImageOfProvince || []; // อาจมีหลายรูป?
+            // ถ้าเอารูปแรกอย่างเดียว ก็ imageArr[0]
+            const firstImage = imageArr[0] || "";
+
+            const urlArr = data.hasURLOfProvince || [];
+            const firstURL = urlArr[0] || "";
+
+            // กรองเอาฟิลด์อื่น ๆ (property อื่น) เช่น hasFlower, hasTree
+            // propertyList คือ [["hasFlower", ["Bastard Teak", "ทองกวาว"]], ...]
+            const propertyList = Object.entries(data).filter(
+              ([propKey]) => !["hasNameOfProvince", "hasMotto", "hasImageOfProvince", "hasURLOfProvince"].includes(propKey)
+            );
+
+            return (
+              <div key={key} className="card">
+                <h2>{displayName}</h2>
+                {displayMotto && <p style={{ whiteSpace: "pre-line" }}>{displayMotto}</p>}
+                {firstImage && <img src={firstImage} alt={key} />}
+                {firstURL && (
+                  <a href={firstURL} target="_blank" rel="noreferrer">
+                    เว็บไซต์ทางการ
+                  </a>
+                )}
+
+                {/* ส่วนแสดง property อื่น ๆ */}
+                {propertyList.length > 0 && (
+                  <React.Fragment>
+                    <hr className="separator" />
+                    <div className="field-list">
+                      {propertyList.map(([propKey, arrVal]) => {
+                        // arrVal เป็น array ของค่าทั้งหมด property นั้น
+                        // รวมเป็นสตริงเดียว "ค่านี้ / ค่านั้น"
+                        const joinedVal = arrVal.join(" / ");
+                        return (
+                          <p key={propKey}>
+                            <strong>{propKey}:</strong> {joinedVal}
+                          </p>
+                        );
+                      })}
+                    </div>
+                  </React.Fragment>
+                )}
+              </div>
+            );
+          })}
+        </div>
+      );
+    }
+
+    // React 18: ใช้ createRoot
+    const rootEl = document.getElementById("root");
+    const root = ReactDOM.createRoot(rootEl);
+    root.render(<ProvinceSearch />);
+  </script>
+</body>
+</html>
