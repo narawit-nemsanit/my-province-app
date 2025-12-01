@@ -180,7 +180,7 @@
           {filteredProvinces.map(([key, data]) => {
             // data.hasNameOfProvince เป็น array (ถ้ามี)
             const nameArr = data.hasNameOfProvince || [key]; 
-            // แปลง array ["เชียงใหม่", "Chiang Mai"] -> "เชียงใหม่ / Chiang Mai"
+            // แปลง array ["เชียงราย", "Chiang Mai"] -> "เชียงใหม่ / Chiang Mai"
             const displayName = nameArr.join(" / ");
 
             const mottoArr = data.hasMotto || [];
